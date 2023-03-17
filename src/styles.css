@@ -101,14 +101,14 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 nav {
   padding: 20px 0;
 }
 nav ul {
-  margin: 0;
+  margin: 20px;
   padding: 0;
 }
 nav li {
