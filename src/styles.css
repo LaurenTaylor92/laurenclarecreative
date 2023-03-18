@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f8f7ff;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #a5594b;
+  --secondary-color: #faeae1;
+  --heading-font-family: "Dancing Script", cursive;
+  --default-font-family: "Frank Ruhl Libre", serif;
 }
 
 h1,
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #243b4a;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -32,17 +32,11 @@ p {
   line-height: 30px;
 }
 .hero {
-  background-color: #f9f7fe;
+  background-color: #faeae1;
   text-align: center;
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  line-height: 2;
-  color: var(--default-font-family);
-}
+
 .hero h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -86,7 +80,9 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
+  letter-spacing: 3px;
   padding: 15px 30px;
+  font-family: var(--default-font-family);
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -95,7 +91,9 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  font-family: var(--default-font-family);
 }
+
 .project-description {
   padding: 120px 60px;
 }
@@ -120,6 +118,8 @@ nav li {
 
 nav a {
   text-decoration: none;
+  font-family: var(--default-font-family);
+  letter-spacing: 3px;
   color: #272142;
   transition: all 100ms ease-in-out;
 }
@@ -145,6 +145,7 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  font-family: var(--default-font-family);
   text-align: center;
 }
 
@@ -187,6 +188,10 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .logo-small {
+    max-height: 160px;
+    padding-top: 10px;
   }
   nav a {
     font-size: 14px;
